@@ -1,0 +1,26 @@
+# Ignorar entorno virtual
+.entorno_virtual/
+.entorno_virtual
+
+# Ignorar archivos de configuración sensibles
+.variables_env
+.variables_env/
+
+# Ignorar archivos Excel generados
+*.xlsx
+*.xlsx/
+
+# Ignorar archivos PDF descargados (opcional)
+pdfs/
+pdfs
+
+# Ignorar archivos temporales de sistema
+*.pyc
+__pycache__/
+*.log
+.DS_Store
+Thumbs.db
+
+# Evitar que se suba la base del entorno
+.env
+.env/
